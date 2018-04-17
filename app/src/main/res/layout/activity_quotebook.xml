@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:id="@+id/touch">
+
+    <TextView
+        android:text="Tap anywhere to begin"
+        android:id="@+id/quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:layout_above="@+id/person"
+        android:textColor="#ffa5a5a5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="26sp"
+        android:gravity="end"
+        android:textColor="#ffa5a5a5"
+        android:layout_gravity="center"
+        android:id="@+id/person"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/quote"
+        android:layout_alignStart="@+id/quote" />
+</RelativeLayout>
